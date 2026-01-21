@@ -27,7 +27,6 @@ export default function Page() {
           Explore luxury cabins
         </Link>
       </div>
-
     </main>
   );
 }

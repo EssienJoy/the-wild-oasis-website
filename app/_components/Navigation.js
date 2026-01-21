@@ -15,14 +15,14 @@ export default async function Navigation() {
             Cabins
           </Link>
         </li>
-        <li>
+        <li>;
           <Link
             href="/about"
             className="hover:text-accent-400 transition-colors"
           >
             About
           </Link>
-        </li>
+        </li >
         <li>
           {session?.user?.image ? (
             <Link
@@ -46,7 +46,7 @@ export default async function Navigation() {
             </Link>
           )}
         </li>
-      </ul>
-    </nav>
+      </ul >
+    </nav >
   );
 }
