@@ -1,23 +1,12 @@
-<<<<<<< HEAD
 "use client";
 
 import Link from "next/link";
-=======
-'use client';
-
->>>>>>> 7c8bc53f0aad881f88aefd4e7fb4181c95503bb5
 import {
   CalendarDaysIcon,
   HomeIcon,
   UserIcon,
-<<<<<<< HEAD
 } from "@heroicons/react/24/solid";
 import SignOutButton from "./SignOutButton";
-=======
-} from '@heroicons/react/24/solid';
-import SignOutButton from '@/app/_components/SignOutButton';
-import Link from "next/link";
->>>>>>> 7c8bc53f0aad881f88aefd4e7fb4181c95503bb5
 import { usePathname } from "next/navigation";
 
 const navLinks = [

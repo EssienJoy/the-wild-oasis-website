@@ -2,19 +2,10 @@ import ReservationList from "@/app/_components/ReservationList";
 import { auth } from "@/app/_lib/auth";
 import { getBookings } from "@/app/_lib/data-service";
 
-<<<<<<< HEAD
 export const metadata = {
   title: "Reservations",
 };
 
-=======
-
-export const metadata = {
-  title: 'Reservations',
-};
-
-
->>>>>>> 7c8bc53f0aad881f88aefd4e7fb4181c95503bb5
 export default async function Page() {
   const session = await auth();
   const bookings = await getBookings(session.user.guestId);
