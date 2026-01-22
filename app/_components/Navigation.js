@@ -15,7 +15,7 @@ export default async function Navigation() {
             Cabins
           </Link>
         </li>
-        <li>;
+        <li>
           <Link
             href="/about"
             className="hover:text-accent-400 transition-colors"
