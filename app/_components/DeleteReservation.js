@@ -13,7 +13,6 @@ function DeleteReservation({ bookingId, onDelete }) {
   }
 
   return (
-<<<<<<< HEAD
     <button
       onClick={handleDelete}
       className="group flex items-center gap-2 uppercase text-xs font-bold text-primary-300 flex-grow px-3 hover:bg-accent-600 transition-colors hover:text-primary-900"
@@ -28,16 +27,8 @@ function DeleteReservation({ bookingId, onDelete }) {
           <SpinnerMini />
         </span>
       )}
-=======
-    <button onClick={handleDelete} className='group flex items-center gap-2 uppercase text-xs font-bold text-primary-300 flex-grow px-3 hover:bg-accent-600 transition-colors hover:text-primary-900'>
-        {isPending ? <span><Spinner /> </span> :
-          <>
-            <TrashIcon className='h-5 w-5 text-primary-600 group-hover:text-primary-800 transition-colors' />
-            <span className='mt-1'>Delete</span>
-          </>}
->>>>>>> 7c8bc53f0aad881f88aefd4e7fb4181c95503bb5
-      </button>
-      );
+    </button>
+  );
 }
 
-      export default DeleteReservation;
+export default DeleteReservation;

@@ -1,24 +1,13 @@
-<<<<<<< HEAD
 import Link from "next/link";
 import Image from "next/image";
 import { PencilSquareIcon } from "@heroicons/react/24/solid";
 import { format, formatDistance, isPast, isToday, parseISO } from "date-fns";
 import DeleteReservation from "./DeleteReservation";
-=======
-import { PencilSquareIcon } from '@heroicons/react/24/solid';
-import { format, formatDistance, isPast, isToday, parseISO } from 'date-fns';
-import DeleteReservation from './DeleteReservation';
-import Image from "next/image";
->>>>>>> 7c8bc53f0aad881f88aefd4e7fb4181c95503bb5
 
 export const formatDistanceFromNow = (dateStr) =>
   formatDistance(parseISO(dateStr), new Date(), {
     addSuffix: true,
-<<<<<<< HEAD
   }).replace("about ", "");
-=======
-  }).replace('about ', '');
->>>>>>> 7c8bc53f0aad881f88aefd4e7fb4181c95503bb5
 
 function ReservationCard({ booking, onDelete }) {
   const {
